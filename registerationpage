@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div>
+        <p>Registration Page</p>
+        <form>
+            <label>Username:</label>
+            <input type="text" required>
 
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Password:</label>
+            <input type="password" required>
+
+            <label>Confirm Password:</label>
+            <input type="password" required>
+
+            <label>Age:</label>
+            <input type="number" min="18" required>
+
+            <label>Gender:</label>
+            <select required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
